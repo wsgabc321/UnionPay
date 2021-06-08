@@ -1,0 +1,29 @@
+{
+    "name": "shuige/union-pay",
+    "description": "UnionPay",
+    "keywords": [
+		"wechatpay",
+		"alipay",
+		"union-pay",
+		"sdk"
+  ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Shuige\\UnionPay\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "chs",
+            "email": "1290696603@qq.com"
+        }
+    ],
+    "require": {
+		"php": ">=7.0",
+		"guzzlehttp/guzzle": "^6.2 || ^7.0",
+	},
+	"require-dev": {    
+    "phpunit/phpunit": "^9.3",
+  },
+}
